@@ -1,0 +1,921 @@
+html,
+body {
+  overflow-x: hidden;
+}
+
+a {
+  color: white;
+  cursor: pointer;
+}
+
+body {
+  background-color: rgb(14, 12, 21);
+  color: white;
+  border-left: 1px solid rgba(115, 111, 132, 0.192);
+  border-right: 1px solid rgba(115, 111, 132, 0.411);
+  margin: 0 2.5rem;
+}
+
+.main-heading {
+  font-size: 3rem;
+}
+
+/* .body-color {
+
+} */
+
+.para-color {
+  color: rgb(115, 111, 132);
+}
+
+/* HEADER  */
+
+.logo-text {
+  font-size: 1.7rem;
+  font-weight: bold;
+}
+
+.fw {
+  font-weight: bold;
+  font-size: 0.8rem;
+  color: grey;
+}
+
+.fw:hover {
+  color: white;
+}
+
+.navLinkPadding {
+  /* border: 2px solid red; */
+  margin: 0 2rem;
+}
+
+.sign-in-button {
+  color: white;
+  border: 1px solid blueviolet;
+  padding: 0.8rem 1.7rem;
+  border-radius: 7px;
+  border-top-right-radius: 1.5rem;
+}
+
+.sign-in-button:hover {
+  border: 1px solid blueviolet;
+  color: rgb(172, 106, 255);
+}
+
+
+/* HERO SECTION  */
+
+.hero-main-text {
+  font-size: 4rem;
+}
+
+.curve-img {
+  width: 19rem;
+}
+
+.hero-span {
+  /* border: 2px solid red; */
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-para {
+  font-weight: 500;
+  color: grey;
+}
+
+.get-started-btn {
+  font-size: 0.9rem;
+  background-color: white;
+  color: rgb(102, 101, 101);
+  font-weight: bold;
+  border-top-right-radius: 20px;
+}
+
+.bg-image {
+  background-image: url('hero-background.jpg');
+  background-size: 105%;
+  background-position: center 35%;
+  /* background-repeat: no-repeat; */
+}
+
+.hero {
+  /* position: relative; */
+  z-index: 2;
+}
+
+.robot-image {
+  width: 60rem;
+  height: 30rem;
+  object-fit: cover;
+  object-position: 50% 30%;
+}
+
+.border-bottom {
+  border-bottom: 1px solid rgba(115, 111, 132, 0.192) !important;
+}
+
+/* .robot {
+  position: relative;
+  z-index: 1;
+}
+
+.robot-background {
+  position: absolute;
+  top: 15%;
+  left: 3.5%;
+}
+
+.hero-background-img {
+  width: 80rem;
+  height: 80rem;
+  object-fit: cover;
+  object-position: 50% 30%;
+} */
+
+.logo-images {
+  margin-bottom: 9rem;
+}
+
+/* BENEFIT SECTION  */
+
+.benefits-card-section {
+  padding: 1.5rem;
+  margin-top: 2rem;
+}
+
+.benefit-card-head {
+  padding: 0 15rem;
+}
+
+.benefit-card {
+  /* background-color: rgb(14, 12, 21); */
+  background-color: transparent;
+  color: rgb(149, 145, 169);
+  border: 2px solid grey;
+  border-top-color: rgb(52, 181, 224);
+  border-inline-start: 0.1rem;
+  border-radius: 25px;
+  border-top-right-radius: 5.5rem !important;
+  transition: all 0.7s ease-in;
+  z-index: 1;
+}
+
+.card-with-img {
+  z-index: 1;
+}
+
+.benefit-card-body {
+  padding: 2rem 2rem;
+  height: 15rem;
+}
+
+.benefit-card-img {
+  /* padding: 1rem; */
+  top: 0;
+}
+
+.benefit-img {
+  width: 24rem;
+  height: 22rem;
+  border-top-right-radius: 23%;
+  opacity: 0;
+  transition: opacity 0.2s ease-in;
+}
+
+/* Ensure high specificity */
+.main-card .gradient-border::before {
+  border-top-right-radius: 5.5rem !important;
+}
+
+.main-card:hover .benefit-img {
+  opacity: 0.1;
+}
+
+.gradient-borderOrange::before {
+  background: linear-gradient(0deg, grey, grey, rgb(255, 200, 118), rgb(255, 200, 118)) !important;
+}
+
+.gradient-borderPurple::before {
+  background: linear-gradient(0deg, grey, grey, rgb(189, 113, 210), rgb(189, 113, 210)) !important;
+}
+
+.gradient-borderYellowGreen::before {
+  background: linear-gradient(0deg, grey, grey, rgb(162, 209, 115), rgb(162, 209, 115)) !important;
+}
+
+.gradient-borderOrangeRed::before {
+  background: linear-gradient(0deg, grey, grey, rgb(209, 130, 114), rgb(209, 130, 114)) !important;
+}
+
+.gradient-borderdarkBlue::before {
+  background: linear-gradient(0deg, grey, grey, rgb(114, 134, 210), rgb(114, 134, 210)) !important;
+}
+
+.message-btnPurple {
+  background-color: rgb(172, 106, 255);
+}
+
+.message-btnOrange {
+  background-color: rgb(255, 200, 118);
+}
+
+.message-btnYellowGreen {
+  background-color: rgb(162, 209, 115);
+}
+
+.message-btnOrangeRed {
+  background-color: rgb(209, 130, 114);
+}
+
+.message-btndarkBlue {
+  background-color: rgb(114, 134, 210);
+}
+
+.message-btnBlue {
+  background-color: rgb(51, 182, 225);
+}
+
+
+.card-title {
+  font-size: 1.5rem;
+}
+
+.card-text {
+  font-size: 1.1rem;
+}
+
+.explore-more-btn {
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+
+.card-footer {
+  border-top: none;
+  padding: 2rem 2rem;
+}
+
+.arrow-icon {
+  font-size: 1.4rem;
+  margin-left: 0.3rem;
+}
+
+.message-icon {
+  color: black;
+  font-size: 1.3rem;
+}
+
+.ruler {
+  margin: 6rem 0;
+}
+
+/* COLLABORATION SECTION  */
+.coll-heading {
+  font-weight: 500;
+}
+
+.tick-icon-box {
+  background-color: rgb(172, 106, 255);
+  border-radius: 50%;
+  margin-right: 1rem;
+}
+
+.tick-icon {
+  font-size: 1rem;
+  color: rgb(33, 23, 49);
+}
+
+.tick-icon {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+
+.coll-para {
+  color: rgb(115, 111, 132);
+  font-size: 1.1rem;
+  font-weight:500;
+  margin-bottom: 2.5rem;
+}
+
+.para-heading {
+  margin-bottom: 2.5rem;
+
+}
+
+.coll-img {
+  margin-right: none !important;
+  margin-left: auto !important;
+  display: flex;
+    flex-direction: column;
+}
+
+/* SIGN UP SECTION  */
+
+.sign-up-container {
+  padding: 0 1.5rem;
+}
+
+.signup-card {
+  background-color: rgb(21, 20, 31);
+  border-radius: 30px;
+}
+
+.signup-card img {
+  /* border: 2px solid red; */
+  width: 30rem;
+  height: 25rem;
+  margin: auto;
+  /* Center the image horizontally */
+}
+
+.askinput {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid rgba(115, 111, 132, 0.411);
+  background-color: rgb(14, 12, 21);
+  padding: 0.5rem 1rem;
+  margin-bottom: 1.5rem;
+  border-radius: 15px;
+}
+
+.disabled-input {
+  background-color: rgb(14, 12, 21) !important;
+  color: rgb(115, 111, 132);
+  border: none;
+  outline: none;
+}
+
+.input-icon {
+  font-size: 2rem;
+  color: rgb(177, 115, 255);
+}
+
+.margin-right {
+  margin-right: 0.8rem;
+}
+
+.margin-left {
+  margin-left: 0.8rem;
+}
+
+.color {
+  color: rgb(115, 111, 132);
+  font-weight: bold;
+  font-size: 0.8rem;
+}
+
+.gradient-border-button {
+  background: transparent;
+  border: none;
+  color: white;
+  font-size: 0.8rem;
+  font-weight: bold;
+  position: relative;
+  z-index: 1;
+  padding: 0.8rem 1.7rem;
+}
+
+.gradient-border-button:hover {
+  color: rgb(172, 106, 255);
+}
+
+.gradient-border-button::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: 15px;
+  border-top-right-radius: 2.5rem;
+  padding: 2px;
+  background: linear-gradient(45deg, #00ffea, #ff62ff, #f6ff7d, #ff89f5);
+  -webkit-mask:
+    linear-gradient(#fff 0 0) content-box,
+    linear-gradient(#fff 0 0);
+  -webkit-mask-composite: destination-out;
+  mask-composite: exclude;
+  z-index: -1;
+  /* Place the pseudo-element behind the button text */
+}
+
+.span-color1 {
+  color: violet;
+}
+
+
+.span-color2 {
+  color: #ff69da;
+}
+
+.signupActiveCard {
+  width: 17.5rem;
+  height: 17rem;
+  margin: auto;
+  cursor: pointer;
+}
+
+.signupActiveCard .card {
+  background-color: rgb(14, 12, 21);
+}
+
+.card-id {
+  color: rgb(115, 111, 132);
+  font-weight: 500;
+  margin-bottom: 0;
+}
+
+.signupActiveCard .card-text-none {
+  display: none;
+}
+
+.signupActiveCard .card-text-block {
+  color: rgb(115, 111, 132);
+  font-weight: 500;
+  margin-bottom: 0;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  -webkit-line-clamp: 3;
+}
+
+
+.activeCard {
+  border-top: none;
+  border-top: 3px solid rgb(172, 107, 255);
+}
+
+.borderr {
+  border-top: 3px solid rgb(45, 44, 63);
+}
+
+
+/* SERVICES SECTION  */
+
+.service {
+  /* border: 2px solid red; */
+  padding: 0 1.5rem;
+}
+
+.services-container {
+  border: 1px solid rgba(115, 111, 132, 0.274);
+  border-radius: 15px;
+  /* padding: 0 1.5rem !important; */
+}
+
+.service-img {
+  filter: drop-shadow(100px 0 100px rgb(19, 18, 67));
+  /* drop-shadow(-50px 0px 50px rgb(19,18,67)) */
+
+}
+
+.loading-icon {
+  width: 1.5rem;
+}
+
+/* .ai-input {
+  
+} */
+
+.service1 {
+  /* border: 2px solid red; */
+  border-radius: 30px;
+}
+
+.service-card-img {
+  background-color: rgb(8, 4, 19);
+  opacity: 0.6;
+  /* height: 37rem; */
+  border-radius: 20px;
+
+}
+
+.service-card-text-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  position: absolute;
+  inset: 0;
+  padding: 3rem;
+  /* border: 2px solid red; */
+}
+
+.service-card-text-box-para {
+  color: rgb(189, 189, 194);
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+
+/* .card-text-box {
+  background-color: black;
+  display: inline-block;
+  padding: 1.5rem;
+  width: 15rem;
+  border-radius: 15px;
+  float: right;
+} */
+
+.speech-bubble {
+  position: relative;
+  background: rgb(37, 33, 52);
+  border-radius: 15px;
+  padding: 1.5rem 2rem;
+  color: #fff;
+  font-size: 16px;
+  width: fit-content;
+  max-width: 250px;
+  margin: 1rem;
+}
+
+.speech-bubble::after {
+  content: '';
+  position: absolute;
+  border-style: solid;
+  border-width: 10px 10px 10px 0;
+  border-color: transparent rgb(37, 33, 52) transparent transparent;
+  display: block;
+  width: 0;
+  z-index: 1;
+  left: -10px;
+  top: 10px;
+}
+
+.service-card2 {
+  background-color: rgb(21, 19, 29);
+  border-radius: 20px;
+  /* border: 2px solid red; */
+  padding: 1rem;
+}
+
+.serviceCard {
+  /* border: 2PX SOLID RED; */
+  padding: 0.8rem;
+  border: none;
+}
+
+.service-card2 .card {
+  background-color: rgb(21, 19, 29);
+  color: white;
+  /* border: 2px solid white; */
+  border-radius: 20px;
+}
+
+.service-icons {
+  background-color: rgb(37, 33, 52);
+  color: white;
+  border-radius: 15px;
+  padding: 1rem;
+}
+
+.service-icons:hover {
+  background-color: rgb(37, 33, 52);
+  color: white;
+}
+
+.icons {
+  font-size: 2rem;
+}
+
+
+.service-card2 .gradient-border-button::before {
+  border-top-right-radius: 15px;
+}
+
+.service-card-img2 {
+  opacity: 0.8;
+  height: 25rem;
+}
+
+.service-card-play {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  position: absolute;
+  align-items: center;
+  inset: 0;
+  padding: 2rem 0;
+  /* border: 2px solid white; */
+}
+
+.line {
+  border: 1px solid white;
+  width: 28rem;
+  margin: 0 0.7rem;
+  height: 0rem;
+}
+
+/* PRICING SECTION  */
+.pricing-section-img-section {
+  margin: 7rem;
+  position: relative;
+  /* Ensure the parent container is relative */
+  z-index: 1;
+}
+
+.pricing-section-main-pic {
+  width: 16rem;
+  position: relative;
+  /* Ensure it's positioned relative to be above the star pic */
+  z-index: 2;
+}
+
+.pricing-section-star-pic {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: auto;
+}
+
+.pricing-head {
+  margin: 3rem 1.2rem;
+}
+
+.pricing {
+  padding: 0 1.5rem;
+}
+
+.pricing-card {
+  background-color: rgb(14, 12, 21);
+  color: white;
+  border: 1px solid rgba(115, 111, 132, 0.274);
+  /* border: 2px solid red; */
+  border-radius: 30px;
+  padding: 1rem;
+}
+
+
+.pricing-card-description {
+  font-weight: 500;
+  font-size: 1.1rem;
+}
+
+.pricing-btn {
+  font-size: 0.8rem;
+  font-weight: bold;
+  margin: 1rem 0;
+}
+
+.premium-btn:hover {
+  background-color: rgb(14, 12, 21);
+}
+
+.basic-color {
+  color: rgb(255, 200, 118);
+}
+
+.premium-color {
+  color: rgb(172, 106, 255);
+}
+
+.enterprise-color {
+  color: rgb(255, 119, 111);
+}
+
+/* ROADMAP SECTION  */
+
+.roadmap-img {
+  background-color: rgb(14, 12, 21);
+  border-radius: 30px;
+  height: 45rem;
+}
+
+
+.gradient-border {
+  background: transparent;
+  border: none;
+  /* color: white; */
+  font-size: 0.8rem;
+  /* font-weight: bold; */
+  position: relative;
+  z-index: 1;
+  padding: 0.1rem;
+}
+
+.gradient-border::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: 30px;
+  /* border-top-right-radius: 2.5rem; */
+  padding: 2px;
+  background: linear-gradient(0deg, grey, grey, rgb(51, 182, 225), rgb(51, 182, 225));
+  -webkit-mask:
+    linear-gradient(#fff 0 0) content-box,
+    linear-gradient(#fff 0 0);
+  -webkit-mask-composite: destination-out;
+  mask-composite: exclude;
+  z-index: -1;
+}
+
+.road-map-image-1 {
+  position: absolute;
+  top: 18%;
+  /* width: 37rem; */
+  z-index: 2;
+  overflow: hidden;
+  box-sizing: content-box;
+  max-width: 100%;
+  /* Ensure it's above the grid image */
+}
+
+.roadmap-card-margin {
+  margin-top: 10rem;
+}
+
+.roadmap-card-margn-2 {
+  margin-top: -8rem;
+}
+
+.footer {
+  margin-top: 5rem;
+  border-top: 1px solid rgba(115, 111, 132, 0.192);
+}
+
+.footer-icons {
+  background-color: rgb(21, 19, 29);
+  color: white;
+  border-radius: 50%;
+  margin: 0 0.5rem;
+  /* padding: 1rem; */
+}
+
+.footer-icons:hover {
+  background-color: rgb(43, 40, 56);
+
+}
+
+
+@media screen and (max-width : 1240px) {
+  body {
+    margin: 0rem;
+  }
+
+  .main-heading {
+    font-size: 2rem;
+    text-align: start;
+  }
+
+  .navLinkPadding {
+    margin: 0 1rem;
+  }
+
+  .hero-main-text {
+    font-size: 2.5rem;
+  }
+  
+  .bg-image {
+    background-image: none;
+  }
+
+  .logo {
+    margin: 1rem;
+  }
+
+  .benefit-card-head {
+    padding: 0rem;
+    margin-bottom: 1rem;
+  }
+
+  .benefit-img {
+    width: 22rem;
+    height: 22rem;
+  }
+
+  .coll-para {
+    font-size: 1rem;
+    margin-bottom: 2rem;
+  }
+
+  .coll-mob {
+    margin-top: 2rem;
+  }
+
+  .mob-margin-top{
+    margin-top: 2rem;
+  }
+
+  .service1 {
+    margin-bottom: 1rem;
+  }
+
+  .line {
+    width: 20rem;
+    margin: 0rem;
+  }
+
+  .mob-margin {
+    margin-top: 2rem !important;
+    margin-bottom: 1rem !important;
+  }
+
+  .mob-text-black {
+    color: black;
+  }
+
+}
+
+@media (max-width: 992px) {
+  .road-map-image-2 {
+      /* border: 2px solid red;
+      width: 35rem;
+      margin: auto;
+      transform: translate(30%, 10%); */
+  }
+
+  .roadmap-card-margin {
+    margin-top: 0;
+  }
+
+  .roadmap-card-margn-2 {
+    margin-top: 0rem;
+  }
+
+  .coll-img {
+    align-items: center;
+  }
+
+  .text-dark-mob {
+    color: grey;
+  }
+
+  .offcanvas {
+  background-color: rgb(14, 12, 21);
+  }
+
+  .btn-close {
+opacity: 1;
+filter: invert(100%);
+  }
+}
+
+@media screen and (max-width : 550px) {
+  .signup-card img {
+    width: 20rem;
+    height: 20rem;
+  }
+
+  .signupActiveCard {
+    width: 90%;
+    height: 14rem;
+  }
+
+
+  .askinput {
+    width: 90%;
+  }
+
+  .service-card-text-box {
+   text-align: left;
+    padding: 2rem;
+  }
+
+  .service {
+    padding: 0 1rem;
+  }
+
+  .icons {
+    font-size: 1.5rem;
+  }
+  
+  .service-icons {
+    padding: 0.7rem;
+  }
+
+  .line {
+    width: 16rem;
+    margin: 0rem;
+  }
+
+  .pricing-section-main-pic {
+    width: 14rem;
+  }
+
+  .pricing-section-star-pic {
+    position: absolute;
+    top: -10rem;
+    left: -11rem;
+    width: auto;
+  }
+
+  .mob-text-start {
+    text-align: left !important;
+  }
+
+  .mob-view {
+    /* border: 2px solid red; */
+    height: 35rem;
+  }
+
+  .mob-img {
+    width: 23rem;
+  }
+}

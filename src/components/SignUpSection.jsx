@@ -13,8 +13,8 @@ const SignUp = () => {
         {clicked == 'true4' && <SignUpCard signUpObj={signUpObj[3]} ></SignUpCard>}
     </div>
         <div className="">
-            <div class="row row-cols-1 row-cols-md-3 g-2">
-                {signUpObj.map(item => <SignUpActiveCards item={item} clicked={clicked} setClicked={setClicked}></SignUpActiveCards>)}
+            <div className="row row-cols-1 row-cols-md-3 g-2">
+                {signUpObj.map(item => <SignUpActiveCards key={item.id} item={item} clicked={clicked} setClicked={setClicked}></SignUpActiveCards>)}
             </div>
         </div>
 

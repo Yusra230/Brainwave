@@ -12,11 +12,11 @@ const PricingSection = () => {
 
             <div className="mob-text-start pricing-head">
                 <p className="color"><span className="span-color1">[</span> GET STARTED WITH BRAINWAVE <span className="span-color2">]</span></p>
-                <h1 class="main-heading mb-4 coll-heading">Pay once, Use Forever</h1>
+                <h1 className="main-heading mb-4 coll-heading">Pay once, Use Forever</h1>
             </div>
 
-            <div class="row row-cols-1 row-cols-md-3 mb-3 pricing">
-                {pricingPlan.map(item => <Pricing item = {item}></Pricing>)}
+            <div className="row row-cols-1 row-cols-md-3 mb-3 pricing">
+                {pricingPlan.map(item => <Pricing key={item.id} item = {item}></Pricing>)}
             </div>
         </center>
     </>

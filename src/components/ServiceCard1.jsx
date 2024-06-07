@@ -1,7 +1,7 @@
 const ServiceCard1 = () => {
-    return <div class="card text-bg-dark service1">
-        <img src="service-2.png" class="card-img service-card-img" alt="..." />
-        <div class="card-img-overlay">
+    return <div className="card text-bg-dark service1">
+        <img src="service-2.png" className="card-img service-card-img" alt="..." />
+        <div className="card-img-overlay">
             <div className="speech-bubble">
                Want to enhance photo with Brainwave?
             </div>

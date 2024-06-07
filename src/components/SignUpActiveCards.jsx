@@ -7,12 +7,12 @@ const SignUpActiveCards = ({ item, clicked, setClicked }) => {
         setClicked(`true${item.id}`)
     }
     
-    return <> <div class="col signupActiveCard mb-3" onClick={() => cardClick()}>
-        <div class={`card h-100 ${clicked == `true${item.id}` ? 'activeCard' : 'borderr'}`}>
-            <div class="card-body text-start">
+    return <> <div className="col signupActiveCard mb-3" onClick={() => cardClick()}>
+        <div className={`card h-100 ${clicked == `true${item.id}` ? 'activeCard' : 'borderr'}`}>
+            <div className="card-body text-start">
                 <p className="card-id">0{item.id}.</p>
-                <h5 class="card-title text-white mb-3">{item.title}</h5>
-                <p class={`${clicked == `true${item.id}` ? 'card-text-block' : 'card-text-none'}`}>{item.description}</p>
+                <h5 className="card-title text-white mb-3">{item.title}</h5>
+                <p className={`${clicked == `true${item.id}` ? 'card-text-block' : 'card-text-none'}`}>{item.description}</p>
             </div>
         </div>
     </div>

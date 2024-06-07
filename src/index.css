@@ -297,7 +297,7 @@ body {
 .coll-para {
   color: rgb(115, 111, 132);
   font-size: 1.1rem;
-  font-weight:500;
+  font-weight: 500;
   margin-bottom: 2.5rem;
 }
 
@@ -310,7 +310,7 @@ body {
   margin-right: none !important;
   margin-left: auto !important;
   display: flex;
-    flex-direction: column;
+  flex-direction: column;
 }
 
 /* SIGN UP SECTION  */
@@ -771,7 +771,7 @@ body {
   .hero-main-text {
     font-size: 2.5rem;
   }
-  
+
   .bg-image {
     background-image: none;
   }
@@ -799,7 +799,7 @@ body {
     margin-top: 2rem;
   }
 
-  .mob-margin-top{
+  .mob-margin-top {
     margin-top: 2rem;
   }
 
@@ -825,7 +825,7 @@ body {
 
 @media (max-width: 992px) {
   .road-map-image-2 {
-      /* border: 2px solid red;
+    /* border: 2px solid red;
       width: 35rem;
       margin: auto;
       transform: translate(30%, 10%); */
@@ -848,12 +848,16 @@ body {
   }
 
   .offcanvas {
-  background-color: rgb(14, 12, 21);
+    background-color: rgb(14, 12, 21);
   }
 
   .btn-close {
-opacity: 1;
-filter: invert(100%);
+    opacity: 1;
+    filter: invert(100%);
+  }
+
+  .text-center-mob {
+    text-align: center;
   }
 }
 
@@ -874,7 +878,7 @@ filter: invert(100%);
   }
 
   .service-card-text-box {
-   text-align: left;
+    text-align: left;
     padding: 2rem;
   }
 
@@ -885,7 +889,7 @@ filter: invert(100%);
   .icons {
     font-size: 1.5rem;
   }
-  
+
   .service-icons {
     padding: 0.7rem;
   }
@@ -918,4 +922,47 @@ filter: invert(100%);
   .mob-img {
     width: 23rem;
   }
+
+  .curve-img {
+    width: 15rem;
+  }
+
+  .service-card-img2 {
+    height: auto;
+  }
+
+ .pricing-section-img-section {
+  margin: 4rem auto;
+ }
+}
+
+@media screen and (max-width : 360px) {
+  .hero-main-text {
+    font-size: 2.2rem;
+  }
+
+
+  .benefit-img {
+    width: 19rem;
+    height: 22rem;
+  }
+
+  .sign-up-container {
+    padding: 0;
+  }
+
+  .serviceCard {
+    padding: 0;
+  }
+
+  .speech-bubble {
+    padding: 1rem;
+    margin: 0;
+  }
+
+  .px-4 {
+    padding:0;
+  }
+
+
 }

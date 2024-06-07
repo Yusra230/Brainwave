@@ -18,7 +18,7 @@ const SignUpCard = ({ signUpObj }) => {
             <div class="col-lg-5 coll-img mob-margin-top">
                 <p className="color"><span className="span-color1">[</span> HOW IT WORK : 0{signUpObj.id} <span className="span-color2">]</span></p>
                 <h1 className="main-heading mb-4 coll-heading">{signUpObj.title}</h1>
-                <p className="coll-para">{signUpObj.description}</p>
+                <p className="coll-para text-center-mob">{signUpObj.description}</p>
                 <GradientButton name = 'CONNECT NOW'></GradientButton>
             </div>
         </div>

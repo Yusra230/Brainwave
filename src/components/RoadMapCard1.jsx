@@ -8,10 +8,8 @@ const RoadMapCard1 = ({ roadMapObj }) => {
         <div class="card-img-overlay px-5 mt-5">
             <div className="d-flex justify-content-between">
                 <p className="color"><span className="span-color1">[</span> MAY 2023 <span className="span-color2">]</span></p>
-                <button className="btn btn-light px-4">
-                    {roadMapObj.button == 'DONE' && <TiTick className="fs-5" />}
-                    {roadMapObj.button == 'IN PROGRESS' && <TbProgress className="fs-5" />}
-                    {roadMapObj.button}
+                <button className="btn btn-light">
+                 <TiTick className="fs-5" /> Done
                 </button>
             </div>
 

@@ -953,6 +953,8 @@ body {
     margin: 0 0.1rem;
   }
 
+
+
 }
 
 @media screen and (max-width : 360px) {
@@ -983,5 +985,9 @@ body {
     padding: 0;
   }
 
+ 
+  .pricing {
+    padding: 0 1rem;
+  }
 
 }

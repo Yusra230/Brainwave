@@ -18,12 +18,11 @@ const BenefitsCard = ({ item }) => {
                     x: 0,
                     opacity: 1,
                     duration: 1,
-                    delay: 2, // Add a delay of 1 second
                     scrollTrigger: {
                         trigger: cardRef.current,
                         start: 'top 80%',
                         end: 'top 70%',
-                        scrub: true,
+                        scrub: false,
                         // markers: true, // Uncomment to enable markers for debugging
                     },
                 }

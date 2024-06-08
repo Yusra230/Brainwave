@@ -16,7 +16,7 @@ const Benefits = () => {
 
             gsap.fromTo(
                 containerRef.current,
-                { y: 200, opacity: 0 },
+                { y: 100, opacity: 0 },
                 {
                     y: 0,
                     opacity: 1,
@@ -25,7 +25,7 @@ const Benefits = () => {
                         trigger: containerRef.current,
                         start: 'top 100%', // Adjust as needed
                         end: 'top 70%',
-                        scrub: true,
+                        scrub: false,
                         // markers: true,
                     },
                 }

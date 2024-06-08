@@ -24,7 +24,7 @@ const Collaboration = () => {
                         trigger: collRef.current,
                         start: 'top 80%',
                         end: 'top 60%',
-                        scrub: true,
+                        scrub: false,
                     },
                 }
             );
@@ -40,7 +40,7 @@ const Collaboration = () => {
                         trigger: imgRef.current,
                         start: 'top 80%',
                         end: 'top 60%',
-                        scrub: true,
+                        scrub: false,
                     },
                 }
             );

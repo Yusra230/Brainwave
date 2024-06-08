@@ -33,7 +33,7 @@ const Hero = () => {
                             trigger: logo,
                             start: 'top 100%', // Adjust as needed
                             end: 'top 70%',
-                            scrub: true,
+                            scrub: false,
                             // markers: true,
                         },
                     }

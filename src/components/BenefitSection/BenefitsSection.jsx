@@ -1,5 +1,5 @@
 import BenefitsCard from "./BenefitsCard";
-import benefitsObj from "../data/data";
+import benefitsObj from "../../data/data";
 
 const Benefits = () => {
    

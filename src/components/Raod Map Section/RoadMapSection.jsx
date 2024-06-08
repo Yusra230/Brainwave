@@ -1,6 +1,5 @@
 import RoadMapCard1 from "./RoadMapCard1";
-import { roadMapObj } from "../data/data";
-
+import { roadMapObj } from "../../data/data";
 const RoadMapSection = () => {
    
     return <>

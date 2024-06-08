@@ -1,5 +1,5 @@
-import GradientButton from "./GradientButton";
-import ParaWithIcon from "./ParaWithIcon";
+import GradientButton from "./Design/GradientButton";
+import ParaWithIcon from "./Design/ParaWithIcon";
 import { paraObj } from "../data/data";
 
 const Collaboration = () => {

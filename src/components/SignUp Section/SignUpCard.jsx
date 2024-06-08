@@ -1,6 +1,6 @@
 import { IoAddCircle } from "react-icons/io5";
 import { BsSoundwave } from "react-icons/bs";
-import GradientButton from "./GradientButton";
+import GradientButton from "../Design/GradientButton";
 
 const SignUpCard = ({ signUpObj }) => {
    

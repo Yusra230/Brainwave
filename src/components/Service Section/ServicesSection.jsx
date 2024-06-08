@@ -1,7 +1,7 @@
 import { TiTick } from "react-icons/ti";
 import ServiceCard1 from "./ServiceCard1";
 import ServiceCard2 from "./ServiceCard2";
-import ParaWithIcon from "./ParaWithIcon";
+import ParaWithIcon from "../Design/ParaWithIcon";
 const ServicesSection = () => {
     const paraObj = {
         col1 : 'Photo generating',

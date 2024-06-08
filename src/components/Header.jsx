@@ -3,7 +3,7 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import Offcanvas from 'react-bootstrap/Offcanvas';
 import { useState } from "react";
-import GradientButton from "./GradientButton";
+import GradientButton from "./Design/GradientButton";
 import { Link as ScrollLink } from "react-scroll";
 
 function Header() {

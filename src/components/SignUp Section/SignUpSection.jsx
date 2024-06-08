@@ -1,7 +1,8 @@
-import SignUpActiveCards from "./SignUpActiveCards";
-import SignUpCard from "./SignUpCard";
+
 import { useState } from "react";
-import signUpObj from "../data/signUpData";
+import SignUpCard from "./SignUpCard";
+import SignUpActiveCards from "./SignUpActiveCards";
+import signUpObj from "../../data/signUpData";
 const SignUp = () => {
 
     const [clicked, setClicked] = useState('true1');

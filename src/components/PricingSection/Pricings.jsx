@@ -1,5 +1,5 @@
 import { TiTick } from "react-icons/ti";
-import ParaWithIcon from "./ParaWithIcon";
+import ParaWithIcon from "../Design/ParaWithIcon";
 
 const Pricing = ({ item }) => {
     return <div className="col">

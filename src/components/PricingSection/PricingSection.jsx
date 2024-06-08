@@ -1,5 +1,5 @@
 import Pricing from "./Pricings";
-import { pricingPlan } from "../data/data";
+import { pricingPlan } from "../../data/data";
 
 const PricingSection = () => {
 

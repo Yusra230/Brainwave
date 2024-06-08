@@ -48,9 +48,8 @@ const Hero = () => {
             <div  className="container">
                 <div className="container">
                     <h1 className="fw-bold hero-main-text">
-                        Explore the Possibilities of AI Chatting with 
-                        <span className="hero-span">
-                            Brainwave 
+                        Explore the Possibilities of AI Chatting with
+                        <span className="hero-span"> Brainwave 
                             <img src="curve.png" className="curve-img" alt="" />
                         </span>
                     </h1>

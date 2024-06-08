@@ -931,9 +931,27 @@ body {
     height: auto;
   }
 
- .pricing-section-img-section {
-  margin: 4rem auto;
- }
+  .pricing-section-img-section {
+    margin: 4rem auto;
+  }
+
+  footer {
+    border: 2px solid red;
+    justify-content: center;
+  }
+
+  .footer-text{
+   margin: auto;
+  }
+
+  .footer-icons-div {
+    margin: auto;
+  }
+
+  .footer-icons {
+    margin: 0 0.1rem;
+  }
+
 }
 
 @media screen and (max-width : 360px) {
@@ -961,7 +979,7 @@ body {
   }
 
   .px-4 {
-    padding:0;
+    padding: 0;
   }
 
 

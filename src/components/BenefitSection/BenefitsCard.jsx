@@ -49,7 +49,7 @@ const BenefitsCard = ({ item }) => {
                     ${item.color === 'purple' && 'message-btnPurple '}
                     ${item.color === 'yellowGreen' && 'message-btnYellowGreen '}
                     ${item.color === 'orangeRed' && 'message-btnOrangeRed'}
-                    ${item.color === 'darkBlue' && 'message-borderdarkBlue '}
+                    ${item.color === 'darkBlue' && 'message-btndarkBlue'}
                     ${item.color === 'blue' && 'message-btnBlue'}
                     `} ><BiSolidMessageDetail className="message-icon" /></button>
                     <button className="btn float-end text-white explore-more-btn">EXPLORE MORE  <IoIosArrowForward className="arrow-icon" /></button>

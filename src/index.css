@@ -97,7 +97,7 @@ body {
 }
 
 .bg-image {
-  background-image: url('hero-background.png');
+  background-image: url('/hero-background.png');
   background-size: 105%;
   background-position: center 35%;
   /* background-repeat: no-repeat; */
